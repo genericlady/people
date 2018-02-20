@@ -1,7 +1,7 @@
 class PeopleMaker
   def self.run(number, type)
     number.times do |_n|
-      Person.new
+      Person.create
     end
   end
 end
